@@ -1,0 +1,50 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2a2ff;
+}
+
+p {
+  font-size: 20px;
+}
+
+.input-container {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#iNome,
+#iNota1,
+#iNota2 {
+  margin: 10px;
+  background: none;
+  border: none;
+  border-bottom: #fff solid;
+  outline: none;
+  text-align: center;
+}
+
+#submit-button {
+  margin: 1rem;
+  height: auto;
+  font-size: 20px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #974adf;
+  color: #fff;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: #60219b;
+  transition: ease-out 0.2s;
+}
